@@ -1,12 +1,10 @@
-# 🌐 Subnet Calculator Web App
+# Subnet Calculator Web App
 
 A simple web-based subnet calculator built with Flask. This tool allows users to enter an IP address in CIDR notation and returns useful subnet information.
 
-Live Demo: [https://bwjatmiko.my.id/subneting](https://bwjatmiko.my.id/subneting)
-
 ---
 
-## 🧩 Features
+## Features
 
 - Input CIDR (e.g. `192.168.1.0/24`)
 - Calculate subnet mask, IP range, network address, and more
@@ -16,21 +14,21 @@ Live Demo: [https://bwjatmiko.my.id/subneting](https://bwjatmiko.my.id/subneting
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 subneting/
-├── app.py # Main app with DispatcherMiddleware
-├── subnet_calc.py # Subnet calculation logic
+├── app.py 
+├── subnet_calc.py 
 ├── templates/
-│ └── index.html # Web form and results
+│ └── index.html 
 ├
-├── requirements.txt # Python dependencies
-└── README.md # This file
+├── requirements.txt 
+└── README.md 
 
 ## Cara Menjalankan
 
 1. Clone repo:
-   git clone https://github.com/jatmikooo/subneting.git
+   git clone https://github.com/zhlynx/subneting.git
    cd subneting
 
 2. Create virtual environment & install dependencies:
